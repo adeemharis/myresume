@@ -1,14 +1,17 @@
 {
-  "name": "developer-portfolio",
+  "name": "myresume",
   "version": "2.0.0",
   "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "repository": "https://github.com/adeemharis/myresume.git",
+  "author": "Adeem Haris",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "eslint *.{js,jsx,ts,tsx}",
     "lint:fix": "eslint *.{js,jsx,ts,tsx} --fix",
@@ -48,6 +51,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.6.0",
+    "gh-pages": "^6.3.0",
     "prettier": "2.8.4",
     "typescript": "^4.9.5"
   }
