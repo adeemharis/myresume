@@ -112,6 +112,22 @@ export const educationInfo: EducationType[] = [
     grade: "",
     descBullets: [], // Array of Strings
   },
+    {
+    schoolName: "Abhinav Public School Pitampura",
+    subHeader: "High School - Science",
+    duration: "May2019 - May 2021",
+    desc: "",
+    grade: "Percentage - 94.5%",
+    descBullets: [], // Array of Strings
+  },
+    {
+    schoolName: "St. Xavier Senior Secondary School Delhi",
+    subHeader: "  Middle School",
+    duration: "May 2011 - May 2019",
+    desc: "",
+    grade: "Percentage - 90.8%",
+    descBullets: [], // Array of Strings
+  },
 ];
 
 export const experience: ExperienceType[] = [
